@@ -480,7 +480,7 @@ factories:
     recipes:
     - Craft_Redstone_Repeater_Basic
     - Craft_Dispenser_Basic
-    - Enchant_Efficiency
+    - Enchant_Efficiency_Basic
     - Random_Printing_Press_Recipe
     - Repair_Small_Factory
     - Upgrade_to_Bastion_Factory
@@ -1989,7 +1989,7 @@ recipes:
         material: WOOL
         durability: 4
         amount: 64
-  Enchant_Efficiency_:
+  Enchant_Efficiency_Basic:
     type: PRODUCTION
     name: Enchant Efficiency
     production_time: 5s
@@ -1999,7 +1999,7 @@ recipes:
         amount: 1
       emerald block:
         material: EMERALD_BLOCK
-        amount: 4
+        amount: 1
     output:
       diamond pickaxe:
         material: DIAMOND_PICKAXE
@@ -2007,7 +2007,7 @@ recipes:
         enchants:
           efficiency:
             enchant: DIG_SPEED
-            level: 5
+            level: 1
   Extract_Diamonds:
     type: PRODUCTION
     name: Extract Diamonds
